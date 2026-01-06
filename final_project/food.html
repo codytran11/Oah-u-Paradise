@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restauraunts</title>
+    <meta name="description"
+        content="this page is going to showcase the best restauraunts and foods that I tried in Oahu. There will be ratings and captions on each image along with pictures showing the food.">
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+
+        .title{
+            color: mediumaquamarine;
+        }
+        .food-gallery {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .food-item {
+            width: 30%;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .food-item img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .food-item h2 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .rating{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a id="name"> Oah'u Paradise</a>
+        <a class="link" href="homepage.html">Home</a>
+        <a class="link" href="destinations.html">Destinations</a>
+        <a class="link" href="food.html">Restaurants</a>
+        <a class="link" href="review.html">Customer Reviews</a>
+    </div>
+    <h1 class="title">Restaurants</h1>
+    <div class="food-gallery">
+        <div class="food-item">
+            <img src="images/matcha.jpg" alt="Matcha">
+            <h2>Okayama No Kobo</h2>
+            <p class="rating">Rating: 10/10</p>
+            <p>Matcha cafe with various Salt Breads</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/ice cream.JPG" alt="Ice Cream">
+            <h2>MOSA</h2>
+            <p class="rating">Rating: 9/10</p>
+            <p>Flavored Ice Cream wrapper in A Crepe</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/poke.JPG" alt="Poke">
+            <h2>Maguro Spot</h2>
+            <p class="rating">Rating: 8.25/10</p>
+            <p>Cheap Poke with Great Serving Sizes</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/snowcon.jpg" alt="Snowcone">
+            <h2>Matsumoto Shaved Ice</h2>
+            <p class="rating">Rating: 7.5/10</p>
+            <p>Various Shaved Ice Flavors paired with Mochi</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/soba.jpg" alt="Soba">
+            <h2>Shingen Soba</h2>
+            <p class="rating">Rating: 7/10</p>
+            <p>Cold Noodles available with Dipping Sauce</p>
+        </div>
+
+        <div class="food-item">
+            <img src="images/steak.jpg" alt="Steak">
+            <h2>Duke's Wakiki</h2>
+            <p class="rating">Rating: 6/10</p>
+            <p>Fancy restauraunt with Steaks and Seafood</p>
+        </div>
+</div>
+    <div id="footer">
+            <p>Cody Tran © 2025</p>
+        </div>
+</body>
+</html>
